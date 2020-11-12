@@ -1,11 +1,9 @@
 package com.example.portfolio.Model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "user")
 public class User {
 
     @Id
@@ -15,10 +13,11 @@ public class User {
     private String firstName;
     private String lastName;
 
-    public User(){}
-
     public Long getId(){
         return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getFirstName() {

@@ -1,29 +1,42 @@
 package com.example.portfolio.Controller;
 
 import com.example.portfolio.Model.User;
-import com.example.portfolio.Service.UserServiceImpl;
+import com.example.portfolio.Repo.UserRepo;
+//import com.example.portfolio.Service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
 public class UserController {
 
     @Autowired
-    UserServiceImpl userServiceImpl;
+    UserRepo userRepo;
 
-    @GetMapping("user")
-    public Iterable<User> getAllUsers(){
-        return userServiceImpl.getAllUsers();
+    @GetMapping()
+    public Iterable<User> getUsers(){
+        return userRepo.findAll();
     }
 
-    @PostMapping("/create/user")
-    public String postUser(){
-        User user = userServiceImpl.getUser();
-        userServiceImpl.postUser(user);
-        return "fetched and created";
+    @PostMapping()
+    public User addUser(@RequestBody User user){
+        return userRepo.save(user);
+    }
+
+    @DeleteMapping("/{id}")
+    public void deleteUser(@PathVariable Long id){
+        userRepo.deleteById(id);
+    }
+
+    @PutMapping("/{id}")
+    public User updateProject(@PathVariable Long id, @RequestBody User user){
+        User foundUser = userRepo.findById(id).orElse(null);
+        if(foundUser != null) {
+            foundUser.setFirstName(user.getFirstName());
+            foundUser.setLastName(user.getLastName());
+            userRepo.save(foundUser);
+            return foundUser;
+        }
+        return null;
     }
 }
