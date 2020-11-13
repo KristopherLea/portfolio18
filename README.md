@@ -11,6 +11,6 @@ The backend was configured with IntelliJ IDE
 
 It runs on the [http://localhost:8080](http://localhost:8080) as of now and will be updated once it is deployed.
 
-[!Alt Text](https://media.giphy.com/media/HV6kxFqRwuHyQSWBaI/giphy.gif)
+![ Alt Text](https://media.giphy.com/media/HV6kxFqRwuHyQSWBaI/giphy.gif)
 
-<iframe src="https://giphy.com/embed/HV6kxFqRwuHyQSWBaI" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/HV6kxFqRwuHyQSWBaI">via GIPHY</a></p>
+![ Alt text](https://sample/url/name-of-gif-file.gif)
