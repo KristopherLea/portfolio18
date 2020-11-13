@@ -17,4 +17,7 @@ It runs on the [http://localhost:8080](http://localhost:8080) as of now and will
 
 ![ Alt Text](https://media.giphy.com/media/xTyg05ci5DJy2nvauw/giphy.gif)
 
+
+# Getting started with the database
+
 ![ Alt Text](https://media.giphy.com/media/I6XQPmWaqgP3Vu2qqh/giphy.gif)
