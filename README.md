@@ -7,7 +7,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-![ Alt Text](https://media.giphy.com/media/RH0f6twbBAyvv8wbV4/giphy.gif)
+
 
 
 # Getting Started with Backend in Java
@@ -15,7 +15,7 @@ The backend was configured with IntelliJ IDE
 
 It runs on the [http://localhost:8080](http://localhost:8080) as of now and will be updated once it is deployed.
 
-![ Alt Text](https://media.giphy.com/media/RH0f6twbBAyvv8wbV4/giphy.gif)
+
 
 ![ Alt Text](https://media.giphy.com/media/xTyg05ci5DJy2nvauw/giphy.gif)
 
