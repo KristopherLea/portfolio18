@@ -11,5 +11,5 @@ The backend was configured with IntelliJ IDE
 
 It runs on the localhost:8080 as of now and will be updated once it is deployed.
 
-[!Alt Text](http://tv.giphy.com/?username=kristopherlea187/giphy.gif)
+[!Alt Text](https://media.giphy.com/media/HV6kxFqRwuHyQSWBaI/giphy.gif)
 
