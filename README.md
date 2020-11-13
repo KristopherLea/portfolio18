@@ -10,6 +10,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 
+![ Alt Text](https://media.giphy.com/media/RH0f6twbBAyvv8wbV4/giphy.gif)
+
+
 # Getting Started with Backend in Java
 The backend was configured with IntelliJ IDE
 
