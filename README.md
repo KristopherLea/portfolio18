@@ -9,7 +9,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 # Getting Started with Backend in Java
 The backend was configured with IntelliJ IDE
 
-It runs on the localhost:8080 as of now and will be updated once it is deployed.
+It runs on the [http://localhost:8080](http://localhost:8080) as of now and will be updated once it is deployed.
 
 [!Alt Text](https://media.giphy.com/media/HV6kxFqRwuHyQSWBaI/giphy.gif)
 
