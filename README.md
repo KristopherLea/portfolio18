@@ -13,4 +13,5 @@ It runs on the [http://localhost:8080](http://localhost:8080) as of now and will
 
 ![ Alt Text](https://media.giphy.com/media/HV6kxFqRwuHyQSWBaI/giphy.gif)
 
-![ Alt text](https://sample/url/name-of-gif-file.gif)
+![ Alt Text](https://media.giphy.com/media/GQcRyo4emrTw2vrJqw/giphy.gif)
+![ Alt Text]()
