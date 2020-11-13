@@ -19,5 +19,6 @@ It runs on the [http://localhost:8080](http://localhost:8080) as of now and will
 
 
 # Getting started with the database
+The database used is mySQL.
 
 ![ Alt Text](https://media.giphy.com/media/I6XQPmWaqgP3Vu2qqh/giphy.gif)
