@@ -15,6 +15,8 @@ The backend was configured with IntelliJ IDE
 
 It runs on the [http://localhost:8080](http://localhost:8080) as of now and will be updated once it is deployed.
 
+![ Alt Text](https://media.giphy.com/media/RH0f6twbBAyvv8wbV4/giphy.gif)
+
 ![ Alt Text](https://media.giphy.com/media/xTyg05ci5DJy2nvauw/giphy.gif)
 
 ![ Alt Text](https://media.giphy.com/media/I6XQPmWaqgP3Vu2qqh/giphy.gif)
