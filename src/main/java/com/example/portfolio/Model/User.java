@@ -13,11 +13,17 @@ public class User {
     private String firstName;
     private String lastName;
 
+    public User() {}
+
+    public User(String firstName, String lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+
+
     public Long getId(){
         return id;
-    }
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getFirstName() {
