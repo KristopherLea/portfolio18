@@ -21,7 +21,6 @@ class PortfolioApplicationTests {
 		user = new User();
 		System.out.println(user);
 	}
-
 	//Act
 	@Test
 	public void testFirstName() {
@@ -39,9 +38,15 @@ class PortfolioApplicationTests {
 		String actual = user.getLastName();
 		assertEquals(expected, actual);
 	}
+
 	@Test
-	public void test(){
+	public void testGetFirstNameNull(){
 		assertNull(user.getFirstName());
+	}
+
+	@Test
+	public void testGetLastNameNull() {
+		assertNull(user.getLastName());
 	}
 
 }
